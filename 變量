@@ -44,3 +44,15 @@ int main()
    return 0;
 }
 ***********************************
+public class Variable{
+    static int allClicks=0;    // 類變量
+ 
+    String str="hello world";  // 實例變量
+ 
+    public void method(){
+ 
+        int i =0;  // 局部變量
+ 
+    }
+}
+***********************************
