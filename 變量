@@ -1,0 +1,46 @@
+***********************************
+#include <stdio.h>
+ 
+// 變量聲明
+extern int a, b;
+extern int c;
+extern float f;
+ 
+int main ()
+{
+  /* 變量定義 */
+  int a, b;
+  int c;
+  float f;
+ 
+  /* 初始化 */
+  a = 10;
+  b = 20;
+  
+  c = a + b;
+  printf("value of c : %d \n", c);
+ 
+  f = 70.0/3.0;
+  printf("value of f : %f \n", f);
+ 
+  return 0;
+}
+***********************************
+#include <iostream>
+using namespace std;
+ 
+#define LENGTH 10   
+#define WIDTH  5
+#define NEWLINE '\n'
+ 
+int main()
+{
+ 
+   int area;  
+   
+   area = LENGTH * WIDTH;
+   cout << area;
+   cout << NEWLINE;
+   return 0;
+}
+***********************************
