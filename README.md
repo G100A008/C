@@ -6,9 +6,24 @@ int main()
     cout << "Hello, world!" << endl;
     return 0;
 }
+namespace
+    
+    
 *****************************************
+#include <stdio.h>
+ 
+int main()
+{
 
-
-
-
-
+    printf("Hello, World! \n");
+ 
+    return 0;
+}
+*****************************************
+public class HelloWorld {
+    
+    public static void main(String []args) {
+        System.out.println("Hello World"); 
+    }
+}
+*****************************************
