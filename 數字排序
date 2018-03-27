@@ -1,0 +1,35 @@
+*************************
+#include<stdio.h>
+ 
+int main()
+{
+    int i,j,k;  //設3個數
+    printf("\n");
+    for(i=1;i<5;i++) { // 以下為三重循环
+        for(j=1;j<5;j++) {
+            for (k=1;k<5;k++) { // 確定i、j、k三位互不相同
+                if (i!=k&&i!=j&&j!=k) {   ????????????????
+                    printf("%d,%d,%d\n",i,j,k);  ????????????????
+                }
+            }
+        }
+    }
+}
+*************************
+#include <iostream>
+using namespace std;
+int main()
+{
+    int i,j,k;  //設3個數 
+    cout << "\n" << endl;
+    for(i=1;i<5;i++) { // 以下為三重循環  
+        for(j=1;j<5;j++) {
+            for (k=1;k<5;k++) { // 確定i、j、k三位互不相同 
+                if (i!=k&&i!=j&&j!=k) {  ????????????
+                    printf("%d,%d,%d\n",i,j,k); ?????????????
+                }
+            }
+        }
+    }
+}
+*********************
