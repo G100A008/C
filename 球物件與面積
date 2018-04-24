@@ -1,3 +1,4 @@
+---
 #include <iostream>
 using namespace std;
 
@@ -22,7 +23,7 @@ public:
   // Return the area of this circle
   double getArea()
   {
-    return radius * radius * 3.14159;
+    return radius * radius * radius * 3/4 * 3.14159;
   }
 };  // Must place a semicolon here
 
@@ -46,3 +47,4 @@ int main()
 
   return 0;
 }
+---
